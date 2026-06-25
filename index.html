@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Shriharan S - B.Sc. Software Systems Student, Aspiring Game Developer, and Full-Stack Developer based in Erode, Tamil Nadu, India. Check out my projects and skills.">
+    <title>Shriharan S | Developer Portfolio</title>
+    
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Background Elements -->
+    <div class="blob-glow blob-1"></div>
+    <div class="blob-glow blob-2"></div>
+    
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container navbar-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Shriharan<span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" id="nav-home">Home</a>
+                <a href="#about" class="nav-link" id="nav-about">About</a>
+                <a href="#skills" class="nav-link" id="nav-skills">Skills</a>
+                <a href="#projects" class="nav-link" id="nav-projects">Projects</a>
+
+                <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon moon-icon"></i>
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                </button>
+                
+                <!-- Burger Menu Toggle -->
+                <button class="burger-menu" id="burger-menu" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section section-padding">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-wrapper">
+                        <span class="welcome-badge">Welcome to my space</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient highlight">Shriharan S</span> <span class="wave">👋</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I'm a <span id="typewriter" class="text-gradient"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        I am passionate about building software, web applications, and game development projects. 
+                        I enjoy creating user-friendly applications and exploring new technologies to solve real-world problems.
+                    </p>
+                    
+                    <div class="location-info">
+                        <i class="fa-solid fa-location-dot location-icon"></i>
+                        <span>Erode, Tamil Nadu, India</span>
+                    </div>
+                    
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/shriharan54" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shriharan-s-a320bb386" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="visual-card">
+                        <div class="coding-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                            <span class="tab-title">portfolio.json</span>
+                        </div>
+                        <div class="coding-body">
+                            <pre><code>{
+  <span class="key">"name"</span>: <span class="string">"Shriharan S"</span>,
+  <span class="key">"education"</span>: <span class="string">"B.Sc. Software Systems"</span>,
+  <span class="key">"college"</span>: <span class="string">"Kongu Engineering College"</span>,
+  <span class="key">"interests"</span>: [
+    <span class="string">"Game Development"</span>,
+    <span class="string">"Full-Stack Dev"</span>,
+    <span class="string">"UI/UX Design"</span>
+  ],
+  <span class="key">"status"</span>: <span class="string">"Building the future..."</span>
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Me Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-visual">
+                        <div class="abstract-graphic">
+                            <div class="shape shape-circle"></div>
+                            <div class="shape shape-triangle"></div>
+                            <div class="shape shape-box"></div>
+                            <div class="avatar-fallback">
+                                <i class="fa-solid fa-user-ninja"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-text">
+                        <p class="lead-text">
+                            I'm currently pursuing a <strong>B.Sc. in Software Systems</strong> at <strong>Kongu Engineering College</strong>, Perundurai (expected graduation: 2028).
+                        </p>
+                        <p>
+                            My academic journey and personal curiosity have led me deep into the fields of <strong>Game Development</strong>, <strong>Full-Stack Web Development</strong>, <strong>UI/UX Design</strong>, and <strong>Artificial Intelligence applications</strong>. 
+                        </p>
+                        <p>
+                            I enjoy learning new technologies and building projects that improve user experiences and solve practical problems. Whether it's coding a backend server in Python/Java, designing interactive frontend interfaces, or building logic for game environments, I approach every challenge with enthusiasm and a drive to build highly-optimized software.
+                        </p>
+                        
+                        <div class="quick-facts">
+                            <div class="fact-card">
+                                <i class="fa-solid fa-graduation-cap fact-icon"></i>
+                                <h3>Education</h3>
+                                <p>B.Sc. Software Systems</p>
+                            </div>
+                            <div class="fact-card">
+                                <i class="fa-solid fa-gamepad fact-icon"></i>
+                                <h3>Passion</h3>
+                                <p>Game & Web Dev</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">What I bring to the table</span>
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code category-icon"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-pill"><span class="bullet lang-c"></span> C</div>
+                            <div class="skill-pill"><span class="bullet lang-cpp"></span> C++</div>
+                            <div class="skill-pill"><span class="bullet lang-py"></span> Python</div>
+                            <div class="skill-pill"><span class="bullet lang-java"></span> Java</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Development -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-laptop-code category-icon"></i>
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-pill"><span class="bullet web-html"></span> HTML & CSS</div>
+                            <div class="skill-pill"><span class="bullet web-js"></span> JavaScript</div>
+                            <div class="skill-pill"><span class="bullet web-react"></span> React</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Databases -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database category-icon"></i>
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-pill"><span class="bullet db-mongo"></span> MongoDB</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Design & Creative -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-wand-magic-sparkles category-icon"></i>
+                            <h3>Design & Creative</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-pill"><span class="bullet ds-ui"></span> UI/UX Design</div>
+                            <div class="skill-pill"><span class="bullet ds-video"></span> Video Editing</div>
+                            <div class="skill-pill"><span class="bullet ds-game"></span> Game Design</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Soft Skills -->
+                    <div class="skill-category-card full-width-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-people-group category-icon"></i>
+                            <h3>Soft Skills & Core Strengths</h3>
+                        </div>
+                        <div class="skill-items soft-skills-flex">
+                            <div class="skill-badge"><i class="fa-regular fa-comment-dots"></i> Communication</div>
+                            <div class="skill-badge"><i class="fa-solid fa-users"></i> Team Collaboration</div>
+                            <div class="skill-badge"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+                            <div class="skill-badge"><i class="fa-solid fa-puzzle-piece"></i> Creativity</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">My recent work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <!-- Project Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web App</button>
+                    <button class="filter-btn" data-filter="systems">Systems / Apps</button>
+                </div>
+                
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Project 1: LearnTest Arena -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image-fallback web-fallback">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <span class="project-type">Web Application (AI)</span>
+                                <h3>LearnTest Arena</h3>
+                            </div>
+                            <p class="project-desc">
+                                AI-powered quiz generation platform inspired by Kahoot. Supports topic-based quiz generation, PDF uploads for custom parsing, and customizable question counts.
+                            </p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Python</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/shriharan54" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-brands fa-github"></i> GitHub Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2: ATM Machine System -->
+                    <div class="project-card" data-category="systems">
+                        <div class="project-image-fallback c-fallback">
+                            <i class="fa-solid fa-money-bill-transfer"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <span class="project-type">System Simulator</span>
+                                <h3>ATM Machine System</h3>
+                            </div>
+                            <p class="project-desc">
+                                A highly robust, menu-driven ATM simulator built to mimic transactional security. Includes secure PIN authentication, balance inquiry, deposit, and withdrawal actions.
+                            </p>
+                            <div class="project-tech">
+                                <span>C</span>
+                            </div>
+                            <div class="project-links">
+                                <span class="project-link-disabled">
+                                    <i class="fa-solid fa-code"></i> CLI Application
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3: Vehicle Booking System -->
+                    <div class="project-card" data-category="systems">
+                        <div class="project-image-fallback java-fallback">
+                            <i class="fa-solid fa-car-side"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <span class="project-type">Console Application</span>
+                                <h3>Vehicle Booking System</h3>
+                            </div>
+                            <p class="project-desc">
+                                Java-based object-oriented application allowing users to view available fleets, register customer accounts, and book rental vehicles dynamically.
+                            </p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                            </div>
+                            <div class="project-links">
+                                <span class="project-link-disabled">
+                                    <i class="fa-solid fa-gears"></i> Java Console App
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tagline">Get in touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Info Cards -->
+                    <div class="contact-info-column">
+                        <div class="contact-info-card">
+                            <div class="icon-box">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Email</h3>
+                                <a href="mailto:shriharan.54@gmail.com">shriharan.54@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-card">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Phone</h3>
+                                <a href="tel:+919876543210">+91 98765 43210</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-card">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Location</h3>
+                                <p>Erode, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form-card card-glass">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Hi Shriharan, I would love to connect..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <span>Send Message</span>
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        
+                        <!-- Success Message -->
+                        <div class="form-success" id="form-success">
+                            <div class="success-icon">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </div>
+                            <h3>Thank You!</h3>
+                            <p>Your message has been sent successfully. I will get back to you shortly.</p>
+                            <button class="btn btn-secondary btn-sm" id="form-reset-btn">Send Another Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> Shriharan S. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/shriharan54" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shriharan-s-a320bb386" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:shriharan.54@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
