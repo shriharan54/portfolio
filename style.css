@@ -11,7 +11,13 @@
     --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.profile-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
 /* Dark Theme Variables (Default) */
 .dark-theme {
     --bg-primary: #0f172a;
